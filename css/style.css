@@ -1,0 +1,131 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.header {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  font-weight: 700;
+}
+.wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+.nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  align-items: center;
+}
+.nav > li {
+  margin-left: 15px;
+}
+.nav > li > a {
+  text-decoration: none;
+  color: #202020;
+}
+.nav_btn {
+  background-color: #5528ff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: none;
+}
+.nav_btn a {
+  text-decoration: none;
+  color: #fff !important;
+  font-weight: 700;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.logo_img {
+  display: block;
+  width: 58px;
+  height: 58px;
+  background-image: url("../img/logo.svg");
+  margin-right: 20px;
+}
+.logo_text {
+  color: #202020;
+  font-size: 24px;
+
+  text-decoration: none;
+}
+.title-main {
+  font-size: 56px;
+  color: #202020;
+  font-weight: 700;
+}
+.text-main {
+  font-size: 32px;
+  line-height: 1.5;
+  color: #4f4f4f;
+}
+.button {
+  background-color: #5528ff;
+  border-radius: 10px;
+  padding: 10px 45px;
+  border: none;
+  text-decoration: none;
+  color: #fff !important;
+  font-size: 24px;
+}
+.page {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.page-top {
+  border-top: 1px solid #c2c2c2;
+}
+.page h2 {
+  position: absolute;
+  top: -24px;
+  background-color: white;
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #c2c2c2;
+}
+.services {
+  display: grid;
+  grid-template: 50% 50% / 50% 50%;
+}
+.services-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.services_img {
+  flex-basis: 120px;
+  text-align: center;
+}
+.services_text {
+  flex-basis: calc(100% - 120px);
+}
+.services h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+.services p {
+  font-size: 14px;
+  color: #b2b2b2;
+  line-height: 1.5;
+}
+.clients {
+  display: grid;
+  grid-template: 120px 120px / repeat(4, 25%);
+}
