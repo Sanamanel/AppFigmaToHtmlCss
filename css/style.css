@@ -65,7 +65,7 @@ body {
   text-decoration: none;
 }
 .title-main {
-  font-size: 56px;
+  font-size: 55px;
   color: #202020;
   font-weight: 700;
 }
@@ -147,6 +147,9 @@ body {
 .team-item > div {
   flex-basis: calc(100% - 100px);
 }
+.team-job {
+  color: #b2b2b2;
+}
 .footer {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -161,9 +164,10 @@ body {
   list-style-type: none;
   padding-left: 0;
   display: flex;
+  padding-right: 60px;
 }
 .social > li {
-  margin-left: 15px;
+  margin-left: 30px;
 }
 .social > li > a {
   text-decoration: none;
